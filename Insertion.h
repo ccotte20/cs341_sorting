@@ -11,6 +11,7 @@ class Insertion : public Sort
     // Public Constructors/Destructors/Member Methods
     public:
 		Insertion();
+		// Ryan: We want this to be a virtual Destructor because of the below method...
 		~Insertion();
         virtual void sortArray(int intArray[], int length);
 };

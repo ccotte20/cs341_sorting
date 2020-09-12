@@ -12,6 +12,7 @@ class Bubble : public Sort
 {
 	public:
 		Bubble();
+		// Ryan: This should be a virtual Destructor due to the method below...
 		~Bubble();
 		virtual void sortArray(int intArray[], int length);
 };

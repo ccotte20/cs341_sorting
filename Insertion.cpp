@@ -5,12 +5,15 @@
 
 #include "Insertion.h"
 
+// Ryan: Some comments in this file might be helpful.
+
 Insertion::Insertion() { }
 
 Insertion::~Insertion() { }
 
 void Insertion::sortArray(int intArray[], int length)
 {
+	// Ryan: Always initialize all variables.
 	int outside, inside, toCompare;
 	for(outside=1; outside<length; outside++)
 	{

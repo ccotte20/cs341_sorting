@@ -40,6 +40,7 @@ int getLength(std::string inF)
 // Main Function
 int main()
 {
+	// Ryan: Always make sure to properly initialize all variables.
 	char cont;
 	cont='Y';
 	
@@ -57,6 +58,7 @@ int main()
 		// Declare array and file variables, open file, check for errors, and place values in array
 		int intArray[length];
 		int inputInt(0);
+		// Ryan: Do we need to re-declare these each time - this is an "expensive" task.
 		std::ifstream inStream;
 		std::ofstream outStream;
 	

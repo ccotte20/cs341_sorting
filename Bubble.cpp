@@ -5,6 +5,8 @@
 
 #include "Bubble.h"
 
+// Ryan: This Class could use some comments.
+
 Bubble::Bubble() { }
 
 Bubble::~Bubble() { }

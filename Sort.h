@@ -10,7 +10,8 @@
 class Sort
 {
     // Public Constructors/Destructors/Member Methods
-    public:       
+    public:   
+		// Ryan: We should always include the default Constructor - just in case.
     	virtual ~Sort() {}
 		// Member Methods
         virtual void sortArray(int intArray[], int length) = 0;
